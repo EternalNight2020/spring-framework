@@ -9,4 +9,5 @@ dependencies {
 	testCompile(testFixtures(project(":spring-beans")))
 	testCompile(testFixtures(project(":spring-core")))
 	testFixturesImplementation(testFixtures(project(":spring-core")))
+	
 }
